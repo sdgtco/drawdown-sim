@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Scratch output (regenerate from code, don't commit).
+# Final portfolio charts go in figures/ and ARE committed.
+output/
+*.csv
+*.parquet
+*.sqlite
+
+# Secrets - never commit API keys
+.env
+*.key
+
+# macOS
+.DS_Store
